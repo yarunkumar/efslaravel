@@ -7,12 +7,13 @@
  <style>
            html, body {
                height: 100%;
-                               background: url('http://zellox.com/wp-content/uploads/2016/02/background-image-html.jpg') no-repeat center center fixed;
+                               background: url('http://people.stern.nyu.edu/yy1112/images/bg.jpg') no-repeat center center fixed;
            }
                        </style>
 </head>
 <body>
 <div class="container">
+	<a href="http://localhost/efslaravel/public">Home </a> |
     <a href="{{ action('CustomerController@index') }}">Customers</a> |
     <a href="{{ action('StockController@index') }}">Stocks</a> |
     <a href="{{ action('InvestmentController@index') }}">Investments</a> |

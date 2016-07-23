@@ -34,6 +34,12 @@
                 font-size: 96px;
             }
         </style>
+         <style>
+           html, body {
+               height: 100%;
+                               background: url('https://images2.alphacoders.com/117/117712.jpg') no-repeat center center fixed;
+           }
+                       </style>
     </head>
     <body>
         <?php
