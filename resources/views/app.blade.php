@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="container">
-	<a href="http://localhost/efslaravel/public">Home </a> |
+	<a href="https://eaglefinancialservices.herokuapp.com/">Home </a> |
     <a href="{{ action('CustomerController@index') }}">Customers</a> |
     <a href="{{ action('StockController@index') }}">Stocks</a> |
     <a href="{{ action('InvestmentController@index') }}">Investments</a> |
