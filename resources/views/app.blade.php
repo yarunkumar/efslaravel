@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <title>Eagle Financial</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-
+ <style>
+           html, body {
+               height: 100%;
+                               background: url('http://zellox.com/wp-content/uploads/2016/02/background-image-html.jpg') no-repeat center center fixed;
+           }
+                       </style>
 </head>
 <body>
 <div class="container">
