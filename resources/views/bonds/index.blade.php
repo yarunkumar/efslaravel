@@ -2,7 +2,7 @@
 
 @section('content')
     <h1>Bonds</h1>
-    <a href="{{url('/stocks/create')}}" class="btn btn-success">Create Bonds</a>
+    <a href="{{url('/bonds/create')}}" class="btn btn-success">Create Bonds</a>
     <hr>
     <table class="table table-striped table-bordered table-hover">
         <thead>
@@ -22,9 +22,9 @@
                 <td>{{ $bond->customer->cust_number }}</td>
                 <td>{{ $bond->customer->name }}</td>
                 <td>{{ $bond->bondtype }}</td>
-                <td>{{ $stock->description }}</td>
-                <td>{{ $stock->investedvalue }}</td>
-                <td>{{ $stock->percentage }}</td>
+                <td>{{ $bond->description }}</td>
+                <td>{{ $bond->investedvalue }}</td>
+                <td>{{ $bond->percentage }}</td>
                 <td><a href="{{url('bonds',$bond->id)}}" class="btn btn-primary">Read</a></td>
                 <td><a href="{{route('bonds.edit',$bond->id)}}" class="btn btn-warning">Update</a></td>
                 <td>

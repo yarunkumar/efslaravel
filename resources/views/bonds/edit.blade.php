@@ -1,26 +1,26 @@
 @extends('app')
 @section('content')
-    <h1>Update Stock</h1>
-    {!! Form::model($stock,['method' => 'PATCH','route'=>['stocks.update',$stock->id]]) !!}
+    <h1>Update Bond</h1>
+    {!! Form::model($bond,['method' => 'PATCH','route'=>['bonds.update',$bond->id]]) !!}
        <div class="form-group">
-        {!! Form::label('symbol', 'Symbol:') !!}
-        {!! Form::text('symbol',null,['class'=>'form-control']) !!}
+        {!! Form::label('bondtype', 'Bond Type:') !!}
+        {!! Form::text('bondtype',null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
-        {!! Form::label('name', 'St Name:') !!}
-        {!! Form::text('name',null,['class'=>'form-control']) !!}
+        {!! Form::label('description', 'Description') !!}
+        {!! Form::text('description',null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
         {!! Form::label('shares', 'Shares:') !!}
         {!! Form::text('shares',null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
-        {!! Form::label('purchase_price', 'Purchase Price:') !!}
-        {!! Form::text('purchase_price',null,['class'=>'form-control']) !!}
+        {!! Form::label('investedvalue', 'Invested Value') !!}
+        {!! Form::text('investedvalue',null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
-        {!! Form::label('purchased', 'Purchase Date:') !!}
-        {!! Form::text('purchased',null,['class'=>'form-control']) !!}
+        {!! Form::label('percentage', ' Percentage:') !!}
+        {!! Form::text('percentage',null,['class'=>'form-control']) !!}
     </div>
 
     <div class="form-group">
